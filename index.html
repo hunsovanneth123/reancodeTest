@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEXsME</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+
+    <style>
+        header {
+            position: sticky;
+            top: 0;
+            z-index: 1;
+        }
+
+        .card label {
+            font-size: smaller;
+        }
+
+        .card .card:hover {
+            cursor: pointer;
+            box-shadow: 1px 1px 5px black;
+            background: whitesmoke;
+        }
+        /* h6 {
+            position: relative;
+        }
+        h6 > div::after {
+            position: absolute;
+            content: "";
+            height: 2.5px;
+            background-color: orange;
+            width: 70px;
+            bottom: 20%;
+        } */
+    </style>
+</head>
+<body>
+    <div>
+        <header class="bg-secondary py-1">
+            <div class="container d-flex justify-content-between align-items-center">
+                <h4 class="text-warning m-0 py-2"><i class="fa fa-chevron-left mr-3 text-white" onclick="window.history.go(-1)"></i>NEX<span class="text-white">sME <i class='fas fa-caret-down ml-3'></i></span></h4>
+                <div class="text-white">
+                    <span>
+                        <i class="far fa-bell"></i>
+                    </span>
+                    <span class="mx-3">
+                        <i class="fa fa-cog"></i>
+                    </span>
+                    <img src="img/avatar.jpg" class="rounded-circle" width="40px" alt="Profile">
+                </div>
+            </div>
+        </header>
+        <nav class="container d-flex flex-row">
+            <h6 class="py-3 pr-2 m-0">Overview<div></div></h6>
+            <h6 class="p-3 m-0 text-primary">Operators<div></div></h6>
+        </nav>
+        <main style="background: lightgray">
+            <div class="container py-3">
+                <div class="card p-3 my-3">
+                    <h6>Simple Sale</h6>
+                    <div class="row">
+                        <div class="col-6 col-md">
+                            <div class="card p-2 my-2">
+                                <label>Quick Sale</label>
+                                <span class="h3 text-danger text-right mt-3">
+                                    <i class="fa fa-shopping-cart"></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md">
+                            <div class="card p-2 my-2">
+                                <label>Sale History</label>
+                                <span class="h3 text-danger text-right mt-3">
+                                    <i class="fa fa-history"></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md">
+                            <div class="card p-2 my-2">
+                                <label>Quick Keys</label>
+                                <span class="h3 text-danger text-right mt-3">
+                                    <i class="fa fa-calendar-alt"></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md">
+                            <div class="card p-2 my-2">
+                                <label>Customer</label>
+                                <span class="h3 text-danger text-right mt-3">
+                                    <i class="fa fa-users"></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md">
+                            <div class="card p-2 my-2">
+                                <label>Open/Close</label>
+                                <span class="h3 text-danger text-right mt-3">
+                                    <i class="fa fa-exchange-alt"></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md">
+                            <div class="card p-2 my-2">
+                                <label>Stock Overview</label>
+                                <span class="h3 text-danger text-right mt-3">
+                                    <i class="fa fa-calendar-alt"></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md">
+                            <div class="card p-2 my-2">
+                                <label>Promotion</label>
+                                <span class="h3 text-danger text-right mt-3">
+                                    <i class="fa fa-map"></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md">
+                           
+                        </div>
+                    </div>
+                </div>
+                <div class="card p-3 my-3">
+                    <h6>Simple Purchase</h6>
+                    <div class="row">
+                        <div class="col-6 col-md">
+                            <div class="card p-2 my-2">
+                                <label>Order</label>
+                                <span class="h3 text-danger text-right mt-3">
+                                    <i class="fa fa-cart-plus"></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md">
+                            <div class="card p-2 my-2">
+                                <label>Purchase History</label>
+                                <span class="h3 text-danger text-right mt-3">
+                                    <i class="fa fa-history"></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md">
+                            <div class="card p-2 my-2">
+                                <label>Stock Overflow</label>
+                                <span class="h3 text-danger text-right mt-3">
+                                    <i class="fa fa-calendar-alt"></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md">
+                            <div class="card p-2 my-2">
+                                <label>Supplier</label>
+                                <span class="h3 text-danger text-right mt-3">
+                                    <i class="fa fa-users"></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md"></div>
+                        <div class="col-6 col-md"></div>
+                        <div class="col-6 col-md"></div>
+                        <div class="col-6 col-md"></div>
+                    </div>
+                </div>
+                <div class="card p-3 my-3">
+                    <h6>Simple Inventory Management</h6>
+                    <div class="row">
+                        <div class="col-6 col-md">
+                            <div class="card p-2 my-2">
+                                <label>Stock Control</label>
+                                <span class="h3 text-danger text-right mt-3">
+                                    <i class="fa fa-search-plus"></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md">
+                            <div class="card p-2 my-2">
+                                <label>Physical Count</label>
+                                <span class="h3 text-danger text-right mt-3">
+                                    <i class="fas fa-list-alt"></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md">
+                            <div class="card p-2 my-2">
+                                <label>Fulfilment</label>
+                                <span class="h3 text-danger text-right mt-3">
+                                    <i class="fa fa-th-large"></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md">
+                            <div class="card p-2 my-2">
+                                <label>Post Goods Issue</label>
+                                <span class="h3 text-danger text-right mt-3">
+                                    <i class="fa fa-arrow-circle-up"></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md">
+                            <div class="card p-2 my-2">
+                                <label>Stock Overflow</label>
+                                <span class="h3 text-danger text-right mt-3">
+                                    <i class="fa fa-calendar-alt"></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md"></div>
+                        <div class="col-6 col-md"></div>
+                        <div class="col-6 col-md"></div>
+                    </div>
+                </div>
+                <div class="card p-3 my-3">
+                    <h6>Product Master</h6>
+                    <div class="row">
+                        <div class="col-6 col-md">
+                            <div class="card p-2 my-2">
+                                <label>Product</label>
+                                <span class="h3 text-danger text-right mt-3">
+                                    <i class="fa fa-shopping-bag"></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md">
+                            <div class="card p-2 my-2">
+                                <label>Product Group</label>
+                                <span class="h3 text-danger text-right mt-3">
+                                    <i class="fas fa-layer-group"></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md">
+                            <div class="card p-2 my-2">
+                                <label>Brand</label>
+                                <span class="h3 text-danger text-right mt-3">
+                                    <i class="fa fa-project-diagram"></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md"></div>
+                        <div class="col-6 col-md"></div>
+                        <div class="col-6 col-md"></div>
+                        <div class="col-6 col-md"></div>
+                        <div class="col-6 col-md"></div>
+                    </div>
+                </div>
+                <div class="card p-3 my-3">
+                    <h6>Business Reports</h6>
+                    <div class="row">
+                        <div class="col-6 col-md">
+                            <div class="card p-2 my-2">
+                                <label>Sale</label>
+                                <span class="h3 text-danger text-right mt-3">
+                                    <i class="fa fa-chart-area"></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md">
+                            <div class="card p-2 my-2">
+                                <label>Purchase</label>
+                                <span class="h3 text-danger text-right mt-3">
+                                    <i class="fas fa-shopping-bag"></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md">
+                            <div class="card p-2 my-2">
+                                <label>Inventory</label>
+                                <span class="h3 text-danger text-right mt-3">
+                                    <i class="fa fa-chart-bar"></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md"></div>
+                        <div class="col-6 col-md"></div>
+                        <div class="col-6 col-md"></div>
+                        <div class="col-6 col-md"></div>
+                        <div class="col-6 col-md"></div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    
+    
+</body>
+</html>
